@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    width: 40vh;
+    height: 40vh;
+    background-color: cadetblue;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid black;
+    }
+
+    .input{
+        margin-bottom: 20px;
+    }
+
+    .input label{
+        margin-bottom: 5px;
+        font-weight: bold;
+        display: block;
+        font-size: 25px;
+        
+    }
+    .input input[type="text"],.input input[type="text"]{
+        width: 95%;
+        padding: 5px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .btn button[type="submit"]{
+        background-color: aqua;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+   .btn button[type="submit"]:hover{
+     background-color: blue;
+    }

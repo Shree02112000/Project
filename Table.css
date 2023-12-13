@@ -1,0 +1,14 @@
+table {
+    width: 400px;
+    height: 300px;
+}
+table ,th,td{
+    border: 2px solid black;
+}
+
+table,th{
+    background-color: aqua;
+}
+table,td{
+    background-color: cadetblue;
+}
